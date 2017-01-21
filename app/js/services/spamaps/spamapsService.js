@@ -1,4 +1,4 @@
-function SpammapsService($http) {
+function SpamapsService($http) {
   'ngInject';
 
   const service = {};
@@ -18,6 +18,6 @@ function SpammapsService($http) {
 }
 
 export default {
-  name: 'SpammapsService',
-  fn: SpammapsService
+  name: 'SpamapsService',
+  fn: SpamapsService
 };
