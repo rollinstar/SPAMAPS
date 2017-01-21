@@ -1,0 +1,43 @@
+/**
+*   map css
+**/
+@charset "utf-8";
+.ol-zoom {
+    top : 52px;
+}
+
+/* Toolbar style */
+#toolbar {
+    position: relative;
+    padding-bottom: 0.5em;
+}
+#toolbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#toolbar ul li {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+#toolbar ul li a {
+    font-weight: bold;
+    font-size: smaller;
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+}
+#toolbar ul li a:hover {
+    text-decoration: underline;
+}
+#toolbar ul li * {
+    vertical-align: middle;
+}
+#map {
+    clear: both;
+    position: relative;
+    width: 768px;
+    height: 500px;
+    border: 1px solid black;
+}
