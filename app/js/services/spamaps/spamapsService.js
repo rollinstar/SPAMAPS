@@ -13,6 +13,10 @@ function SpamapsService($http) {
     });
   };
 
+  service.testFunction = function() {
+    alert('service test!');
+  }
+
   return service;
 
 }
